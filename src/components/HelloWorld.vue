@@ -26,7 +26,7 @@ defineProps<{ msg: string }>()
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
 
-  <button type="button" @click="store.increment">count is: {{ store.counter }}</button>
+  <q-btn @click="store.increment">count is: {{ store.counter }}</q-btn>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
