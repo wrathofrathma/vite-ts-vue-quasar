@@ -1,17 +1,17 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
-import Index from '../views/Index.vue'
+import Index from "../views/Index.vue";
 
 const routes: Array<RouteRecordRaw> = [
-	{
-		path: '/',
-		component: Index,
-	}
-]
+  {
+    path: "/",
+    component: Index,
+  },
+];
 
 const router = createRouter({
-	history: createWebHistory(),
-	routes
-})
+  history: createWebHistory(),
+  routes,
+});
 
-export default router
+export default router;
